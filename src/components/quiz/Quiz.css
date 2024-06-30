@@ -22,6 +22,7 @@
     padding: 10px;
     margin: 13px 0;
     border-radius: 3px;
+    cursor: pointer;
 }
 .container .button{
     width: 100px;
@@ -32,8 +33,31 @@
     background-color: #083e50;
     color: white;
     margin: 0 auto;
+    cursor: pointer;
 }
 .container .details{
     text-align: right;
     font: bolder;
+}
+
+.container .correct{
+    background-color: #9cbdc8;
+    border: 1px solid #0396c7;
+}
+.container .wrong{
+    background-color: #ff9e9e;
+    border: 1px solid #c70303;
+}
+
+.top-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+    .container{
+        width: 300px;
+        padding: 30px 15px;
+    }
 }
